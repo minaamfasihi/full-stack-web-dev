@@ -1,0 +1,12 @@
+Block Level Elements:
+- Always start on new line
+- Takes up full available width
+e.g: <div>, <h1> - <h6>, <p>, <form>
+
+Inline Level Elements:
+- Doesnt start on a new line
+- Takes only width as necessary
+
+e.g: <span>, <a>, <img>
+
+- Between two paragraphs, there is a padding of 10px. You can change that from CSS.

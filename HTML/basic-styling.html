@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Styling</title>
+	<style>
+		body {
+			background: #f4f4f4;
+			font-family: arial;
+			line-height: 1.5em; /*spacing between the lines in a paragraph etc.*/
+		}
+
+		#container {
+			border: 1px #cccccc solid; /*width color style*/
+			/*by default, headings and paragraphs have padding on top and bottom*/
+			padding-left: 10px;
+			/*padding-right: 10px;*/
+			padding: 0 10px 0 10px; /*top right bottom left*/
+			/*margin-top: 30px; /*corresponds to the space outside the element*/
+			width: 800px;
+			/*margin: auto; /*centers the container and overrides previous margin-top*/
+			margin: 30px auto; /*this sets the top and bottom to 30px and the rest to auto*/
+			overflow: hidden; /*hides the text that overflows the boundary of element and adjusts that within the boundary*/
+		}
+
+		/*#container p {
+			margin: 0; /* removes the padding from the bottom
+
+		}*/
+
+		.emp {
+			color: red;
+			font-weight: bold;
+		}
+
+		.side-a {
+			float: left;
+			width: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div class="side-a">
+			<h1>Welcome</h1>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text <span class="emp">ever since the 1500s</span>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like <span class="emp">Aldus PageMaker</span> including versions of Lorem Ipsum
+			</p>
+		</div>
+		<div class="side-b">
+			<h1>Hello</h1>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text <span class="emp">ever since the 1500s</span>, when an unknown printer took a galley of of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like <span class="emp">Aldus PageMaker</span>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
